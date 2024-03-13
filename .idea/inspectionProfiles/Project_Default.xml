@@ -1,0 +1,62 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="213" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="11">
+            <item index="0" class="java.lang.String" itemvalue="scikit-image" />
+            <item index="1" class="java.lang.String" itemvalue="pprint" />
+            <item index="2" class="java.lang.String" itemvalue="ipdb" />
+            <item index="3" class="java.lang.String" itemvalue="cython" />
+            <item index="4" class="java.lang.String" itemvalue="fire" />
+            <item index="5" class="java.lang.String" itemvalue="tnt" />
+            <item index="6" class="java.lang.String" itemvalue="torch" />
+            <item index="7" class="java.lang.String" itemvalue="torchnet" />
+            <item index="8" class="java.lang.String" itemvalue="numpy" />
+            <item index="9" class="java.lang.String" itemvalue="six" />
+            <item index="10" class="java.lang.String" itemvalue="PIL" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E266" />
+          <option value="E722" />
+          <option value="E402" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N802" />
+          <option value="N803" />
+          <option value="N812" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="random.random.choice" />
+          <option value="models.build_models.NICConfig.*" />
+          <option value="models.config.NICConfig.*" />
+          <option value="models.nic.NICConfig.visual_backbone" />
+          <option value="models.nic.NICConfig.*" />
+          <option value="data.build_datasets.CocoCaptionConfig.*" />
+          <option value="trainers.image_caption_trainer.ImageCaptionConfig.*" />
+          <option value="data.build_datasets.CocoCaptionsConfig.coco_dir" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
